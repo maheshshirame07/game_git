@@ -23,10 +23,10 @@ int main() {
         attempts++;
 
         if (guess > secretNumber) {
-            cout << "Too High!\n";
+            cout << "Entered number is High!\n";
         }
         else if (guess < secretNumber) {
-            cout << "Too Low!\n";
+            cout << "Entered number is Low!\n";
         }
         else {
             cout << "\nCongratulations! You won! \n";
